@@ -1,0 +1,14 @@
+:root {
+  --navbar-height: 60px;
+  --primary-color: #00C880;
+
+  --background-color: #E8F1F6;
+}
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #E8F1F6;
+}
