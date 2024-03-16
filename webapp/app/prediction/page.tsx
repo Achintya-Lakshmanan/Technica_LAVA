@@ -50,7 +50,7 @@ function Prediction() {
           <form onSubmit={handleSubmit}>
             <div>
               <div>Credit Card</div>
-              <input type="text" name="cc_num" onChange={handleChange} />
+              <input type="text" name="cc_num" onChange={handleChange}/>
             </div>
             <div>
               <div>Merchant ID</div>

@@ -76,12 +76,10 @@ def get_score_from_id(uid):
     db = client.magic
     collection = db.users
     data = collection.find({"uid": uid})
-
+    
     _ = data[0]
     _.pop("_id")
-    print(_)
     return _
-
 
 def update_score(uid, score):
     client = pymongo.MongoClient(
@@ -184,23 +182,25 @@ def predict():
         print("630441765090")
         convert_to_compatible(in_features, out_features)
 
+        print("630441765090")
+
         float_features = [float(x) for x in out_features.values()]
         float_features = [float(x) for i, x in enumerate(out_features.values()) if i not in [2, 3, 4, 5, 6]]
 
         final_features = np.array(float_features).reshape(1, -1)
 
-        if final_features.shape[1] != model.n_features_in_:
-            return render_template(
-                "index.html", prediction_text="Invalid number of features"
-            )
-        
+        # if final_features.shape[1] != model.n_features_in_:
+        #     return render_template(
+        #         "index.html", prediction_text="Invalid number of features"
+        #     )
+
         prediction = model.predict(final_features)
 
         output = round(prediction[0], 2)
 
         print(output)
         return jsonify(str(output))
-    
+
     except Exception as e:
         print(f"Error predicting: {e}")
         return jsonify({"error": "Error predicting"}), 500

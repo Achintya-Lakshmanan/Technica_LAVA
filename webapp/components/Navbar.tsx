@@ -20,6 +20,9 @@ function Navbar({ page }: { page: number }) {
             <a href="/" className={page === 1 ? styles.active : styles.inactive}>Home</a>
           </div>
           <div>
+            <a href="/keylog" className={page === 2 ? styles.active : styles.inactive}>Keylog</a>
+          </div>
+          <div>
             <a href="/prediction" className={page === 3 ? styles.active : styles.inactive}>Prediction</a>
           </div>
           <div style={{ color: "black" }}>

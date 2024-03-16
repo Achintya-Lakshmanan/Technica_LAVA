@@ -79,8 +79,6 @@ function Keylog() {
 
     const [onClick, setOnClick] = useState(false);
 
-
-
     return <>
         <Navbar page={2} />
 
