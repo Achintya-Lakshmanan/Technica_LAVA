@@ -3,9 +3,14 @@
 
 # Demo Video
 
+https://github.com/Achintya-Lakshmanan/Technica_LAVA/assets/111832051/e8b5349a-818e-4805-b68f-a0c0fda46479
+
 # Link To Presentation
 
 # [Figma Link](https://www.figma.com/file/sz9RtrrquYiKSjIeC670gm/Technica_LAVA?type=whiteboard&node-id=0%3A1&t=ywuS9oGXpp8Bj4aU-1)
+
+
+
 
 
 ***
@@ -51,9 +56,10 @@ To tackle this problem, we propose a **three-pronged solution**:
 
 ***
 # UI and App
-![Image1](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/Resources/Model%20Design.png)
-![Image2](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/Resources/WhatsApp%20Image%202024-02-04%20at%2015.19.31.jpeg)
-![Image3](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/Resources/Spam%20App.jpg)
+![Image1](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/demo/home_screenshot.jpeg)
+![Image2](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/demo/prediction_screenshot.jpeg)
+![Image3](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/demo/iptrack_screenshot.jpeg)
+![Image4](https://github.com/Achintya-Lakshmanan/Technica_LAVA/blob/main/Resources/Spam%20App.jpg)
 
 ***
 ## Data
