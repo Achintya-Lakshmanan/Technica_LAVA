@@ -198,8 +198,9 @@ def predict():
 
         output = round(prediction[0], 2)
 
-        print(output)
-        return jsonify(str(output))
+        predict = "Fraud" if output == 1 else "Not Fraud"
+
+        return jsonify(str(predict))
 
     except Exception as e:
         print(f"Error predicting: {e}")
