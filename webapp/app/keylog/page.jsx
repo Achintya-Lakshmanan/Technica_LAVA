@@ -91,8 +91,8 @@ function Keylog() {
         </div>
 
         {onClick && <div style={{ textAlign: "center"}}>
-          <h1 > Typing Style <br/>
-          {Math.floor(Math.random() * 110) + 1}</h1></div>}
+          <h1> Typing Style <br/>
+          {prediction}</h1></div>}
         <div style={{textAlign: "center", margin: "100px"}}></div>
 
     </>
