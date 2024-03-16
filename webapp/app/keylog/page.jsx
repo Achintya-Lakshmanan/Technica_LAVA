@@ -92,7 +92,7 @@ function Keylog() {
             </div>
         </div>
 
-        {onClick && <div style={{ textAlign: "center"}}>{Math.floor(Math.random() * 110)}</div>}
+        {prediction && <div style={{ textAlign: "center"}}>{prediction}</div>}
         <div style={{textAlign: "center", margin: "100px"}}></div>
 
     </>
