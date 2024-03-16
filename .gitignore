@@ -144,3 +144,6 @@ dmypy.json
 
 # Models
 NiceModel.sav
+
+# Jsons
+*.json
